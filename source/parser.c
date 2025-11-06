@@ -10,15 +10,13 @@ int parser(const char * file_dir) {
     
     char ch;
     int idx = 0;
-    char instrs[MAX_BUF_SIZE];
+    instr_t instrs[MAX_BUF_SIZE];
     while ((ch = fgetc(fp)) != EOF) { 
         if (ch == '\n' || ch == ' ') continue;
-        instrs[idx++] = ch;
+        instrs[idx++] = (instr_t)ch;
     }
 
     instrs[idx] = '\0';
 
     for (int i = 0; i < idx; i++) define_instr_type(instrs[i]);
 }
-
-
