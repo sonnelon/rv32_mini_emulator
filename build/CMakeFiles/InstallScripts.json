@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hacker/projects/mini_qemu/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

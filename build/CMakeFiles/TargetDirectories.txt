@@ -1,0 +1,3 @@
+/home/hacker/projects/mini_qemu/build/CMakeFiles/mini_riscv_qemu.dir
+/home/hacker/projects/mini_qemu/build/CMakeFiles/edit_cache.dir
+/home/hacker/projects/mini_qemu/build/CMakeFiles/rebuild_cache.dir

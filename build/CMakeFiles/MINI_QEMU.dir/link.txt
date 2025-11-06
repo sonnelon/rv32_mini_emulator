@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/MINI_QEMU.dir/link.d CMakeFiles/MINI_QEMU.dir/main.c.o CMakeFiles/MINI_QEMU.dir/source/cli/cli.c.o -o MINI_QEMU
