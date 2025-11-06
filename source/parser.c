@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include "parser.h"
-#include "color.h"
+#include "error.h"
 
 #define MAX_BUF_SIZE 2056
 
 int parser(const char * file_dir) {
     FILE * fp = fopen(file_dir, "r");
-    if (fp == NULL) error("failed open file"); 
+    if (fp == NULL) err("failed open file"); 
     
     char ch;
     int idx = 0;
@@ -17,7 +18,7 @@ int parser(const char * file_dir) {
 
     instrs[idx] = '\0';
 
-    for (int i = 0; i < idx; i++) define_instr_t(instrs[i]);
+    for (int i = 0; i < idx; i++) define_instr_type(instrs[i]);
 }
 
 

@@ -31,69 +31,6 @@ CMakeFiles/mini_riscv_qemu.dir/main.c.o: /home/hacker/projects/mini_qemu/main.c 
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
 
-CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o: /home/hacker/projects/mini_qemu/source/cli/cli.c \
-  /home/hacker/projects/mini_qemu/source/include/cli.h \
-  /home/hacker/projects/mini_qemu/source/include/config.h \
-  /usr/include/alloca.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/endian.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/types.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
-
 mini_riscv_qemu: /usr/lib/Scrt1.o \
   /usr/lib/crti.o \
   /usr/lib/crtn.o \
@@ -107,159 +44,94 @@ mini_riscv_qemu: /usr/lib/Scrt1.o \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
   CMakeFiles/mini_riscv_qemu.dir/main.c.o \
-  CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o
+  CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o \
+  CMakeFiles/mini_riscv_qemu.dir/source/error/error.c.o
 
 
-CMakeFiles/mini_riscv_qemu.dir/main.c.o:
+CMakeFiles/mini_riscv_qemu.dir/source/error/error.c.o:
+
+/usr/lib/libc_nonshared.a:
 
 /usr/lib/libc.so.6:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/usr/lib/libgcc_s.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
 
 /usr/lib/libgcc_s.so:
-
-/usr/lib/libc.so:
-
-/usr/lib/crtn.o:
 
 /usr/lib/crti.o:
 
 /usr/lib/Scrt1.o:
 
-/usr/include/sys/types.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/strings.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/features.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/floatn.h:
-
-/home/hacker/projects/mini_qemu/source/include/cli.h:
-
-/usr/include/string.h:
-
-/home/hacker/projects/mini_qemu/main.c:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/lib/libc_nonshared.a:
-
 /usr/include/bits/types.h:
 
-/usr/include/bits/long-double.h:
-
-/home/hacker/projects/mini_qemu/source/include/config.h:
-
-/usr/include/stdio.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/endian.h:
-
-/usr/include/alloca.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/bits/stdint-intn.h:
+/usr/lib/libc.so:
 
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/bits/stdlib-float.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/bits/types/sigset_t.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/bits/time64.h:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/lib/libgcc_s.so.1:
 
-/usr/include/bits/types/clock_t.h:
+/home/hacker/projects/mini_qemu/source/include/cli.h:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/bits/floatn.h:
 
-/usr/include/bits/types/clockid_t.h:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/bits/types/locale_t.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
 
-CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o:
+/usr/include/bits/long-double.h:
 
-/home/hacker/projects/mini_qemu/source/cli/cli.c:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
-/usr/include/bits/types/struct_timespec.h:
+/usr/lib/crtn.o:
+
+/home/hacker/projects/mini_qemu/main.c:
+
+/usr/include/bits/floatn-common.h:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/include/bits/types/struct_timeval.h:
+/usr/include/bits/libc-header-start.h:
 
-/usr/include/bits/struct_rwlock.h:
+CMakeFiles/mini_riscv_qemu.dir/main.c.o:
 
-/usr/include/bits/types/time_t.h:
+/usr/include/bits/wordsize.h:
 
-/usr/include/stdlib.h:
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o:
+
+/usr/include/features.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:

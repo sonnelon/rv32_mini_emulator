@@ -2,8 +2,8 @@
 
 #include <stdbool.h>
 
-typedef imm_t unsigned short;
-typedef upper_imm_t unsigned int;
+typedef unsigned short imm_t;
+typedef unsigned int upper_imm_t;
 
 struct regs_state_t {};
 

@@ -6,7 +6,8 @@ target_include_directories(mini_riscv_qemu PRIVATE source/include)
 
 target_sources(mini_riscv_qemu 
     PRIVATE
-        source/cli/cli.c
+        source/cli.c
+        source/error.c
 )
 
 target_compile_options(mini_riscv_qemu PRIVATE -Wall -Wpedantic -Wextra)

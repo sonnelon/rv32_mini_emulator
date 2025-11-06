@@ -153,29 +153,53 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/main.c.s
 .PHONY : main.c.s
 
-source/cli/cli.o: source/cli/cli.c.o
-.PHONY : source/cli/cli.o
+source/cli.o: source/cli.c.o
+.PHONY : source/cli.o
 
 # target to build an object file
-source/cli/cli.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o
-.PHONY : source/cli/cli.c.o
+source/cli.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o
+.PHONY : source/cli.c.o
 
-source/cli/cli.i: source/cli/cli.c.i
-.PHONY : source/cli/cli.i
+source/cli.i: source/cli.c.i
+.PHONY : source/cli.i
 
 # target to preprocess a source file
-source/cli/cli.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.i
-.PHONY : source/cli/cli.c.i
+source/cli.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/cli.c.i
+.PHONY : source/cli.c.i
 
-source/cli/cli.s: source/cli/cli.c.s
-.PHONY : source/cli/cli.s
+source/cli.s: source/cli.c.s
+.PHONY : source/cli.s
 
 # target to generate assembly for a file
-source/cli/cli.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.s
-.PHONY : source/cli/cli.c.s
+source/cli.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/cli.c.s
+.PHONY : source/cli.c.s
+
+source/error.o: source/error.c.o
+.PHONY : source/error.o
+
+# target to build an object file
+source/error.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/error.c.o
+.PHONY : source/error.c.o
+
+source/error.i: source/error.c.i
+.PHONY : source/error.i
+
+# target to preprocess a source file
+source/error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/error.c.i
+.PHONY : source/error.c.i
+
+source/error.s: source/error.c.s
+.PHONY : source/error.s
+
+# target to generate assembly for a file
+source/error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/error.c.s
+.PHONY : source/error.c.s
 
 # Help Target
 help:
@@ -189,9 +213,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... source/cli/cli.o"
-	@echo "... source/cli/cli.i"
-	@echo "... source/cli/cli.s"
+	@echo "... source/cli.o"
+	@echo "... source/cli.i"
+	@echo "... source/cli.s"
+	@echo "... source/error.o"
+	@echo "... source/error.i"
+	@echo "... source/error.s"
 .PHONY : help
 
 

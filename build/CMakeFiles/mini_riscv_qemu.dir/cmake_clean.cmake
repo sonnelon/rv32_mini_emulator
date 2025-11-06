@@ -2,8 +2,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/mini_riscv_qemu.dir/link.d"
   "CMakeFiles/mini_riscv_qemu.dir/main.c.o"
   "CMakeFiles/mini_riscv_qemu.dir/main.c.o.d"
-  "CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o"
-  "CMakeFiles/mini_riscv_qemu.dir/source/cli/cli.c.o.d"
+  "CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o"
+  "CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o.d"
+  "CMakeFiles/mini_riscv_qemu.dir/source/error.c.o"
+  "CMakeFiles/mini_riscv_qemu.dir/source/error.c.o.d"
   "mini_riscv_qemu"
   "mini_riscv_qemu.pdb"
 )
