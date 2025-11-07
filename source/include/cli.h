@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stdbool.h>
+#include "regs_state.h"
 
 #define VERSION_FLAG "--version"
 #define V_FLAG "-v"
@@ -10,4 +11,4 @@
 static inline bool check_flag (const char * val, const char * flag_one, const char * flag_two);
 void display_help ();
 void display_version ();
-int parse_args (int argc, char ** argv);
+int parse_args (int argc, char ** argv, struct regs_state_t * regs_state);

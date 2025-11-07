@@ -16,4 +16,5 @@ CMakeFiles/mini_riscv_qemu.dir/main.c.o: \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
  /home/hacker/projects/mini_qemu/source/include/cli.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
+ /home/hacker/projects/mini_qemu/source/include/regs_state.h

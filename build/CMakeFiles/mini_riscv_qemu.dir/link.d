@@ -5,6 +5,7 @@ mini_riscv_qemu: \
   CMakeFiles/mini_riscv_qemu.dir/main.c.o \
   CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o \
   CMakeFiles/mini_riscv_qemu.dir/source/error.c.o \
+  CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
@@ -38,6 +39,8 @@ CMakeFiles/mini_riscv_qemu.dir/main.c.o:
 CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o:
 
 CMakeFiles/mini_riscv_qemu.dir/source/error.c.o:
+
+CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 

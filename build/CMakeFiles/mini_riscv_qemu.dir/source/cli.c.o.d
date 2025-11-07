@@ -35,4 +35,9 @@ CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o: \
  /usr/include/bits/stdlib-float.h \
  /home/hacker/projects/mini_qemu/source/include/cli.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
- /home/hacker/projects/mini_qemu/source/include/config.h
+ /home/hacker/projects/mini_qemu/source/include/regs_state.h \
+ /home/hacker/projects/mini_qemu/source/include/config.h \
+ /home/hacker/projects/mini_qemu/source/include/parser.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h

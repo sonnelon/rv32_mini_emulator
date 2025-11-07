@@ -1,1 +1,1 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/mini_riscv_qemu.dir/link.d CMakeFiles/mini_riscv_qemu.dir/main.c.o CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o CMakeFiles/mini_riscv_qemu.dir/source/error.c.o -o mini_riscv_qemu
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/mini_riscv_qemu.dir/link.d CMakeFiles/mini_riscv_qemu.dir/main.c.o CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o CMakeFiles/mini_riscv_qemu.dir/source/error.c.o CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o -o mini_riscv_qemu

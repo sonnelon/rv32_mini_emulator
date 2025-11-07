@@ -8,6 +8,7 @@ target_sources(mini_riscv_qemu
     PRIVATE
         source/cli.c
         source/error.c
+        source/parser.c
 )
 
 target_compile_options(mini_riscv_qemu PRIVATE -Wall -Wpedantic -Wextra)

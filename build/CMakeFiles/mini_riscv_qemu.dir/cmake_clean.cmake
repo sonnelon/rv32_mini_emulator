@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o.d"
   "CMakeFiles/mini_riscv_qemu.dir/source/error.c.o"
   "CMakeFiles/mini_riscv_qemu.dir/source/error.c.o.d"
+  "CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o"
+  "CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o.d"
   "mini_riscv_qemu"
   "mini_riscv_qemu.pdb"
 )

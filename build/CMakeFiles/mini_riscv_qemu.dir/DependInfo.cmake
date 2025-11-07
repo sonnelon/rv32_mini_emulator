@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hacker/projects/mini_qemu/main.c" "CMakeFiles/mini_riscv_qemu.dir/main.c.o" "gcc" "CMakeFiles/mini_riscv_qemu.dir/main.c.o.d"
   "/home/hacker/projects/mini_qemu/source/cli.c" "CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o" "gcc" "CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o.d"
   "/home/hacker/projects/mini_qemu/source/error.c" "CMakeFiles/mini_riscv_qemu.dir/source/error.c.o" "gcc" "CMakeFiles/mini_riscv_qemu.dir/source/error.c.o.d"
+  "/home/hacker/projects/mini_qemu/source/parser.c" "CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o" "gcc" "CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o.d"
   "" "mini_riscv_qemu" "gcc" "CMakeFiles/mini_riscv_qemu.dir/link.d"
   )
 

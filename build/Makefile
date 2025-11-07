@@ -201,6 +201,30 @@ source/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/error.c.s
 .PHONY : source/error.c.s
 
+source/parser.o: source/parser.c.o
+.PHONY : source/parser.o
+
+# target to build an object file
+source/parser.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o
+.PHONY : source/parser.c.o
+
+source/parser.i: source/parser.c.i
+.PHONY : source/parser.i
+
+# target to preprocess a source file
+source/parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/parser.c.i
+.PHONY : source/parser.c.i
+
+source/parser.s: source/parser.c.s
+.PHONY : source/parser.s
+
+# target to generate assembly for a file
+source/parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_riscv_qemu.dir/build.make CMakeFiles/mini_riscv_qemu.dir/source/parser.c.s
+.PHONY : source/parser.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... source/error.o"
 	@echo "... source/error.i"
 	@echo "... source/error.s"
+	@echo "... source/parser.o"
+	@echo "... source/parser.i"
+	@echo "... source/parser.s"
 .PHONY : help
 
 
