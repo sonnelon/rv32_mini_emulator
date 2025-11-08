@@ -1,6 +1,6 @@
 #pragma once
 
-#include <stdbool.h>
+#include <string>
 #include "regs_state.h"
 
 #define VERSION_FLAG "--version"
@@ -8,7 +8,11 @@
 #define H_FLAG "-h"
 #define HELP_FLAG "--help"
 
-static inline bool check_flag (const char * val, const char * flag_one, const char * flag_two);
-void display_help ();
-void display_version ();
-int parse_args (int argc, char ** argv, struct regs_state_t * regs_state);
+class CLI {
+public:
+    int parse_args(int argc, char ** argv, regs_state_t& regs_state);
+private:
+    inline bool check_flag(const std::string& val, const std::string& flag_one, const std::string& flag_two);
+    inline void display_help();
+    inline void display_version();
+};

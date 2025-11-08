@@ -6,9 +6,9 @@ target_include_directories(mini_riscv_qemu PRIVATE source/include)
 
 target_sources(mini_riscv_qemu 
     PRIVATE
-        source/cli.c
-        source/error.c
-        source/parser.c
+        source/cli.cc
+        source/logger.cc
+        source/parser.cc
 )
 
 target_compile_options(mini_riscv_qemu PRIVATE -Wall -Wpedantic -Wextra -O2)

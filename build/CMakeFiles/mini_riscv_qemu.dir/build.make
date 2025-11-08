@@ -72,80 +72,80 @@ include CMakeFiles/mini_riscv_qemu.dir/flags.make
 CMakeFiles/mini_riscv_qemu.dir/codegen:
 .PHONY : CMakeFiles/mini_riscv_qemu.dir/codegen
 
-CMakeFiles/mini_riscv_qemu.dir/main.c.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
-CMakeFiles/mini_riscv_qemu.dir/main.c.o: /home/hacker/projects/mini_qemu/main.c
-CMakeFiles/mini_riscv_qemu.dir/main.c.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mini_riscv_qemu.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/main.c.o -MF CMakeFiles/mini_riscv_qemu.dir/main.c.o.d -o CMakeFiles/mini_riscv_qemu.dir/main.c.o -c /home/hacker/projects/mini_qemu/main.c
+CMakeFiles/mini_riscv_qemu.dir/main.cc.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
+CMakeFiles/mini_riscv_qemu.dir/main.cc.o: /home/hacker/projects/mini_qemu/main.cc
+CMakeFiles/mini_riscv_qemu.dir/main.cc.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mini_riscv_qemu.dir/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/main.cc.o -MF CMakeFiles/mini_riscv_qemu.dir/main.cc.o.d -o CMakeFiles/mini_riscv_qemu.dir/main.cc.o -c /home/hacker/projects/mini_qemu/main.cc
 
-CMakeFiles/mini_riscv_qemu.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mini_riscv_qemu.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hacker/projects/mini_qemu/main.c > CMakeFiles/mini_riscv_qemu.dir/main.c.i
+CMakeFiles/mini_riscv_qemu.dir/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_riscv_qemu.dir/main.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/projects/mini_qemu/main.cc > CMakeFiles/mini_riscv_qemu.dir/main.cc.i
 
-CMakeFiles/mini_riscv_qemu.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mini_riscv_qemu.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hacker/projects/mini_qemu/main.c -o CMakeFiles/mini_riscv_qemu.dir/main.c.s
+CMakeFiles/mini_riscv_qemu.dir/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_riscv_qemu.dir/main.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/projects/mini_qemu/main.cc -o CMakeFiles/mini_riscv_qemu.dir/main.cc.s
 
-CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
-CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o: /home/hacker/projects/mini_qemu/source/cli.c
-CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o -MF CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o.d -o CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o -c /home/hacker/projects/mini_qemu/source/cli.c
+CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
+CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o: /home/hacker/projects/mini_qemu/source/cli.cc
+CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o -MF CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o.d -o CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o -c /home/hacker/projects/mini_qemu/source/cli.cc
 
-CMakeFiles/mini_riscv_qemu.dir/source/cli.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mini_riscv_qemu.dir/source/cli.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hacker/projects/mini_qemu/source/cli.c > CMakeFiles/mini_riscv_qemu.dir/source/cli.c.i
+CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/projects/mini_qemu/source/cli.cc > CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.i
 
-CMakeFiles/mini_riscv_qemu.dir/source/cli.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mini_riscv_qemu.dir/source/cli.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hacker/projects/mini_qemu/source/cli.c -o CMakeFiles/mini_riscv_qemu.dir/source/cli.c.s
+CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/projects/mini_qemu/source/cli.cc -o CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.s
 
-CMakeFiles/mini_riscv_qemu.dir/source/error.c.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
-CMakeFiles/mini_riscv_qemu.dir/source/error.c.o: /home/hacker/projects/mini_qemu/source/error.c
-CMakeFiles/mini_riscv_qemu.dir/source/error.c.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mini_riscv_qemu.dir/source/error.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/source/error.c.o -MF CMakeFiles/mini_riscv_qemu.dir/source/error.c.o.d -o CMakeFiles/mini_riscv_qemu.dir/source/error.c.o -c /home/hacker/projects/mini_qemu/source/error.c
+CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
+CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o: /home/hacker/projects/mini_qemu/source/logger.cc
+CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o -MF CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o.d -o CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o -c /home/hacker/projects/mini_qemu/source/logger.cc
 
-CMakeFiles/mini_riscv_qemu.dir/source/error.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mini_riscv_qemu.dir/source/error.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hacker/projects/mini_qemu/source/error.c > CMakeFiles/mini_riscv_qemu.dir/source/error.c.i
+CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/projects/mini_qemu/source/logger.cc > CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.i
 
-CMakeFiles/mini_riscv_qemu.dir/source/error.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mini_riscv_qemu.dir/source/error.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hacker/projects/mini_qemu/source/error.c -o CMakeFiles/mini_riscv_qemu.dir/source/error.c.s
+CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/projects/mini_qemu/source/logger.cc -o CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.s
 
-CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
-CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o: /home/hacker/projects/mini_qemu/source/parser.c
-CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o -MF CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o.d -o CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o -c /home/hacker/projects/mini_qemu/source/parser.c
+CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o: CMakeFiles/mini_riscv_qemu.dir/flags.make
+CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o: /home/hacker/projects/mini_qemu/source/parser.cc
+CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o -MF CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o.d -o CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o -c /home/hacker/projects/mini_qemu/source/parser.cc
 
-CMakeFiles/mini_riscv_qemu.dir/source/parser.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mini_riscv_qemu.dir/source/parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hacker/projects/mini_qemu/source/parser.c > CMakeFiles/mini_riscv_qemu.dir/source/parser.c.i
+CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/projects/mini_qemu/source/parser.cc > CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.i
 
-CMakeFiles/mini_riscv_qemu.dir/source/parser.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mini_riscv_qemu.dir/source/parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hacker/projects/mini_qemu/source/parser.c -o CMakeFiles/mini_riscv_qemu.dir/source/parser.c.s
+CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/projects/mini_qemu/source/parser.cc -o CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.s
 
 # Object files for target mini_riscv_qemu
 mini_riscv_qemu_OBJECTS = \
-"CMakeFiles/mini_riscv_qemu.dir/main.c.o" \
-"CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o" \
-"CMakeFiles/mini_riscv_qemu.dir/source/error.c.o" \
-"CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o"
+"CMakeFiles/mini_riscv_qemu.dir/main.cc.o" \
+"CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o" \
+"CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o" \
+"CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o"
 
 # External object files for target mini_riscv_qemu
 mini_riscv_qemu_EXTERNAL_OBJECTS =
 
-mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/main.c.o
-mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/source/cli.c.o
-mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/source/error.c.o
-mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/source/parser.c.o
+mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/main.cc.o
+mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/source/cli.cc.o
+mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/source/logger.cc.o
+mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/source/parser.cc.o
 mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/build.make
 mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/compiler_depend.ts
 mini_riscv_qemu: CMakeFiles/mini_riscv_qemu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable mini_riscv_qemu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hacker/projects/mini_qemu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable mini_riscv_qemu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mini_riscv_qemu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

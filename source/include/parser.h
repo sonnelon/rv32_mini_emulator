@@ -1,13 +1,13 @@
 #pragma once
 
-#include <stdint.h>
+#include <cstdint>
 #include "regs_state.h"
 
-typedef unsigned short imm_t;
-typedef unsigned int upper_imm_t;
-typedef uint32_t instr_t;
+using imm_t = unsigned short;
+using upper_imm_t = unsigned int;
+using instr_t = uint32_t;
 
-enum types_instr_t { I_TYPE, R_TYPE, S_TYPE, J_TYPE, U_TYPE };
+enum class types_instr_t { I_TYPE, R_TYPE, S_TYPE, J_TYPE, U_TYPE };
 
 struct i_instr_t {
     struct { imm_t imm; unsigned char rs1; unsigned char rd; } operands;
@@ -26,12 +26,14 @@ struct s_instr_t {
     unsigned char func3, opcode;
 };
 
-static void distribute_instr(instr_t instr);
-static inline enum types_instr_t define_instr_type(instr_t opcode);
-
-int parser(const char * file_dir, struct regs_state_t * regs_state);
-
-struct i_instr_t parse_i_instr(instr_t instr, struct regs_state_t * state);
-struct r_instr_t parse_r_instr(instr_t instr, struct regs_state_t * state);
-struct u_instr_t parse_u_instr(instr_t instr, struct regs_state_t * state);
-struct s_instr_t parse_s_instr(instr_t instr, struct regs_state_t * state);
+class Parser {
+public:
+    int parse(const std::string& file_path, regs_state_t& regs_state);
+private:
+    i_instr_t parse_i_instr(instr_t instr, regs_state_t& state);
+    r_instr_t parse_r_instr(instr_t instr, regs_state_t& state);
+    u_instr_t parse_u_instr(instr_t instr, regs_state_t& state);
+    s_instr_t parse_s_instr(instr_t instr, regs_state_t& state);
+    void distribute_instr(instr_t instr);
+    inline types_instr_t define_instr_type(instr_t opcode);
+};
