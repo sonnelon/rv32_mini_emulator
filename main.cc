@@ -3,6 +3,6 @@
 #include "regs_state.h"
 
 int main(int argc, char * argv[]) {
-    struct regs_state_t regs;
+    regs_state_t regs;
     parse_args(argc, argv, &regs);
 }

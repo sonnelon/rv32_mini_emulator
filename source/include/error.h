@@ -1,4 +1,6 @@
 #pragma once
 
-inline void err(const char * msg);
-inline void warning(const char * msg);
+class Logger:
+public:
+    void err(const std::string& msg);
+    void warning(const std::string& msg);
